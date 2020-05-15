@@ -1,0 +1,27 @@
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.ml{
+    margin-left: 50px;
+    color: white;
+}
+.nav-links{
+    display: inline-block;
+    margin-left: 15px;
+}
+.brand{
+    display: inline-block !important;
+    font-size: 20px;
+    color:white
+}
+.ml>a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+
