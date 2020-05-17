@@ -23,6 +23,7 @@ header{
     color:white;
     padding-left: 20px;
     padding-top: 8;
+    font-family: 'Amatic SC', cursive;
 }
 .brand:hover{
     color: gold;
