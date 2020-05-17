@@ -41,6 +41,8 @@ img{
 }
 .nav-links:hover{
     color: gray;
+    transform: scale(3);
+    transition: 1s transform;
 }
 img:hover{
     transform: scale(1.2);
