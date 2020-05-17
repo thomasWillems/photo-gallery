@@ -27,6 +27,8 @@ header{
 }
 .brand:hover{
     color: gold;
+    transform: scale(1.2);
+    transition: 0.8s transform;
 }
 main{
     margin-left: 300px;
@@ -61,3 +63,13 @@ footer{
 .footer:hover{
     color: #4682B4;
 }
+@media only screen and (max-width: 600px){
+    main{
+        margin-left: 125px;
+    }
+    @media only screen and (min-width: 768px) {
+        main{
+            margin-left: 125px;
+            display: block;
+        }
+    } 
